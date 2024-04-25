@@ -32,6 +32,7 @@ a{
     grid-template-rows: repeat(2,1fr);
     gap: 1rem;
     font-weight: 500;
+    margin-top: 25px;
 }
 
 #header > .container > .sub-header > .profile-pic {
@@ -40,7 +41,6 @@ a{
     grid-row-end: 3;
     justify-self: center;
     align-self: center;
-
 }
 
 #header > .container > .sub-header > .profile-pic>img {
@@ -52,7 +52,6 @@ a{
     font-weight: 500;
     font-size: 1em;
     justify-content: space-between;
-       
 }
 
 #header > .container > .sub-header > .sub-header-links > a > img {
