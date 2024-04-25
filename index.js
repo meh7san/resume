@@ -9,3 +9,8 @@ function getTotalExperience(){
 }
 
 document.querySelector(".experience").innerText = getTotalExperience();
+
+$('.addbar').each(function() {
+    var barPercent = $(this).attr('data-percentage');
+    $(this).html(`<progress class=".progressbar" value="${barPercent}" max="100"> ${barPercent} </progress>`);
+});
