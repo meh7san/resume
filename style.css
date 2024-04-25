@@ -129,7 +129,7 @@ a{
 }
 
 #main > .container > .right-panel {
-    grid-area: 1 / 2 / 8 / 2;
+    grid-area: 1 / 2 / 18 / 2;
 }
 
 #main > .container > .right-panel > .sub-title {
@@ -146,6 +146,13 @@ a{
     margin-bottom: 3px;
 }
 
+.lineitems{
+    margin-bottom: 3px;
+}
+
+progress{
+    accent-color: #2C74B3;
+}
 
 @media (max-width:832px) {
 
@@ -161,7 +168,7 @@ a{
     }
 
     #main > .container > .right-panel > .description {
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
 
     .sub-title {
