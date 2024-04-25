@@ -14,14 +14,6 @@ a{
 
 /* HEADER STARTS HERE */
 
-#header{
-
-}
-
-#header > .container {
-
-}
-
 #header > .container > .title {
     margin-bottom: 0;
     text-transform: uppercase;
@@ -76,6 +68,10 @@ a{
 }
 
 @media (max-width:832px) {
+
+    body{
+        margin: 9%;
+    }
 
     #header > .container > .sub-header {
         display: grid;
